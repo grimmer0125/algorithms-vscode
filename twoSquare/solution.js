@@ -1,4 +1,3 @@
-
 function getIntercet(line1, line2) {
   let intercetLen = 0;
 
