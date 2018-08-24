@@ -24,7 +24,7 @@ Test:
 - yarn test specific_folder (only that folder)
 
 Todo:
-1. (breakpoint) debugging when using jest 
+1. (breakpoint) debugging when using jest
 
 ## Python
 
@@ -32,4 +32,5 @@ Install:
 - pip install -U pytest
 
 Test:
-- pytest -s (find all `test_*` files in the current folder)
+- pytest -s (find all `leet*` files in the current folder)
+- pytest -s single_file (only that file)

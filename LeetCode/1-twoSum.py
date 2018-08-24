@@ -6,7 +6,7 @@ class Solution:
         :rtype: List[int]
         """
         numDict = {}
-        length = len(nums)        
+        length = len(nums)
         for i in range(0, length):
             num_i = nums[i]
             numDict[num_i] = i
@@ -16,5 +16,8 @@ class Solution:
             if remain in numDict:
                 remain_index = numDict[remain]
                 if i != remain_index:
-                    return [i, remain_index]     
+                    return [i, remain_index]
 
+def test_func():
+    test = Solution()
+    assert test.twoSum([3,2,4], 6) == [1,2]  

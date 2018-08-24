@@ -14,3 +14,8 @@ class Solution:
             else:
                 numDict[num] = 1
         return heapq.nlargest(k, numDict, key=lambda x: numDict[x])
+
+def test_func():
+    test = Solution()
+    assert test.topKFrequent([1,1,1,2,2,3], 2) == [1,2]
+    assert test.topKFrequent([1], 1) == [1]
