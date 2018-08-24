@@ -13,3 +13,23 @@ Some questions in my interviews
 Some other interesting problems
 1. (Meta string) Checking if two strings contain the same characters regardless of order
 2. Regular Expression Puzzle: http://jimbly.github.io/regex-crossword
+
+## Node.js
+
+Install:
+- yarn install
+
+Test:
+- yarn test (find all `*.test.js` in the root folder)
+- yarn test specific_folder (only that folder)
+
+Todo:
+1. (breakpoint) debugging when using jest 
+
+## Python
+
+Install:
+- pip install -U pytest
+
+Test:
+- pytest -s (find all `test_*` files in the current folder)
