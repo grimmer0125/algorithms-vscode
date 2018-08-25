@@ -6,6 +6,7 @@ import math
 from functools import reduce
 import operator as op
 
+# slow, should use the way in solution_fastest.py 
 def find_next_levels_ways(n_target, cur_total):
     ways = 0
     for number in range(1, 7): # [1, 6]
@@ -19,7 +20,7 @@ def find_next_levels_ways(n_target, cur_total):
             ways += find_next_levels_ways(n_target, pseudo_total)
     return ways
 
-# recursive is slower 
+# recursive is slower
 if __name__ == '__main__':
     total = find_next_levels_ways(10,0)
     print(total)

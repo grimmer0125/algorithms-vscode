@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# slow, should use the way in solution_fastest.py 
 import sys
 import math
 from functools import reduce
@@ -105,5 +106,5 @@ if __name__ == '__main__':
         print(result)
     else:
         # for testing
-        result = start_parallel_estimation(10, num_process=1)
+        result = start_parallel_estimation(7, num_process=1)
     print("total result:{}".format(result))

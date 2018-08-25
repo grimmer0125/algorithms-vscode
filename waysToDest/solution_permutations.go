@@ -1,3 +1,4 @@
+// slow, should use the way in solution_fastest.py 
 package main
 
 import (
