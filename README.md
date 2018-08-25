@@ -14,6 +14,13 @@ Some other interesting problems
 1. (Meta string) Checking if two strings contain the same characters regardless of order
 2. Regular Expression Puzzle: http://jimbly.github.io/regex-crossword
 
+## LeetCode favorite list
+
+- easy: https://leetcode.com/list/1emvu11
+- medium: https://leetcode.com/list/1emw747
+- hard: https://leetcode.com/list/1emdws5
+- 490 The Maze (medium): https://leetcode.com/articles/the-maze/
+
 ## Node.js
 
 Install:
