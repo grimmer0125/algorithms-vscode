@@ -34,3 +34,12 @@ Install:
 Test:
 - pytest -s (find all `leet*` files in the current folder)
 - pytest -s single_file (only that file)
+
+## Go
+
+Run:
+1. in each folder, execute `go build` and executed the generated binary file
+
+Test:
+1. in each folder, execute `go test`
+2. in root folder, `go test ./...` to test all sub folders
