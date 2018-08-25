@@ -1,7 +1,7 @@
 // the “K complementary pairs in array” challenge
 // target: worst case time complexity: O(N*logN), space: O(N*logN)
 
-// worst time O(n * n) on Node.js, O(nlogn), space: O(n)
+// worst time O(n * n), space: O(n)
 function solution(K, A) {
   let complementaryTotal = 0;
 
@@ -12,9 +12,12 @@ function solution(K, A) {
   A.sort();
 
   const count = A.length;
-  // 2 find. time O(n * logn)
+  // 2 find. time O(n * n), indexOf is not good enough
   for (let i = 0; i < count; i++) {
     const targetValue = K - A[i];
+
+    // FIXME: use two binary search so time O(n * logn),
+    // so total solution will be O(n * logn) on Mozilla
     const firstMatch = A.indexOf(targetValue);
     const finalMatch = A.lastIndexOf(targetValue);
 

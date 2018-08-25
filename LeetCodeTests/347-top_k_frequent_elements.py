@@ -13,7 +13,7 @@ class Solution:
                 numDict[num] += 1
             else:
                 numDict[num] = 1
-        return heapq.nlargest(k, numDict, key=lambda x: numDict[x])
+        return heapq.nlargest(k, numDict, key=lambda x: numDict[x]) # ~Counter.most_common(k)
 
 def test_func():
     test = Solution()
