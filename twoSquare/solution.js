@@ -33,7 +33,6 @@ function solution(K, L, M, N, P, Q, R, S) {
   const width2 = R - P;
   const height2 = S - Q;
   const area2 = width2 * height2;
-  console.log(area2);
 
   let intercetArea = 0;
   const intercetLen1 = getIntercet([K, M], [P, R]);
@@ -43,6 +42,8 @@ function solution(K, L, M, N, P, Q, R, S) {
   }
 
   const total = area1 + area2 - intercetArea;
+  // console.log(total);
+
   return total;
 }
-solution(-4, 1, 2, 6, 0, -1, 4, 3);
+module.exports = solution;

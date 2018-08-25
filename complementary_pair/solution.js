@@ -29,11 +29,6 @@ function solution(K, A) {
   return complementaryTotal;
 }
 
-
-const A = [1, 8, -3, 0, 1, 3, -2, 4, 5];
-const resp = solution(6, A);
-console.log(resp); // 7
-
 // worst time O(n * n), avg O(n * 1);  space: O(n)
 function solution2(K, A) {
   let complementaryTotal = 0;
@@ -60,3 +55,5 @@ function solution2(K, A) {
 
   return complementaryTotal;
 }
+
+module.exports = { solution, solution2 };

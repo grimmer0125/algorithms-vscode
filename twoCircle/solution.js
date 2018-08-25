@@ -24,5 +24,4 @@ function solution(x1, y1, r1, x2, y2, r2) {
   return area1 + area2;
 }
 
-const resp = solution(2, 2, 3, 5, 5, 3);
-console.log(resp); // should ~ 5.137
+module.exports = solution;
