@@ -3,7 +3,7 @@ Some other coding problems in my inteviews
 1. reverse a string
 2. judge if a string is the substring of another string
 3. Hanoi tower
-4. use two stacks to implement a queue (pseudo code)
+4. use two stacks to implement a queue (pseudo code), https://leetcode.com/problems/implement-stack-using-queues/
 
 Some questions in my interviews
 1. time complexity of merge sort
@@ -16,10 +16,12 @@ Some other interesting problems
 
 ## LeetCode favorite list
 
-- easy: https://leetcode.com/list/1emvu11
-- medium: https://leetcode.com/list/1emw747
-- hard: https://leetcode.com/list/1emdws5
+- easy(12): https://leetcode.com/list/1emvu11
+- medium(12): https://leetcode.com/list/1emw747
+- hard(10): https://leetcode.com/list/1emdws5
 - 490 The Maze (medium): https://leetcode.com/articles/the-maze/
+
+`12` in `easy(12)` means that the first 12 problems in the list are in the first 200 leetcode problems which are used frequently. 
 
 ## Node.js
 
