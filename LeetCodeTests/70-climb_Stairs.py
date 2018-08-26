@@ -1,5 +1,5 @@
+# https://leetcode.com/problems/climbing-stairs/solution/ has a faster way
 class Solution:
-    # https://leetcode.com/problems/climbing-stairs/solution/ has a faster way
     def climbStairs(self, n):
         """
         :type n: int
