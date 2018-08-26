@@ -1,3 +1,5 @@
+# Bonus points if you could solve it both recursively and iteratively.
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
