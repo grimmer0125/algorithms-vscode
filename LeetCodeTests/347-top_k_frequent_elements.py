@@ -1,5 +1,6 @@
-# Your algorithm's time complexity must be better than O(n log n), 
+# Your algorithm's time complexity must be better than O(n log n),
 # where n is the array's size.
+# ~ 169.
 import heapq
 
 class Solution:
