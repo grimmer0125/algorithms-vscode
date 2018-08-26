@@ -1,4 +1,9 @@
 class Solution:
+    # the below way is similar to the 2nd/3rd way mentioned in
+    # https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/
+    # , which is so called Sliding Window. But
+    # 1. our way uses "find" which is O(n)
+    # 2. that article uses hashset whose worse case is still O(n), not O(1)
     def lengthOfLongestSubstring(self, s):
         """
         :type s: str
