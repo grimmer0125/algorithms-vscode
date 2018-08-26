@@ -9,6 +9,7 @@ Some questions in my interviews
 1. time complexity of merge sort
 2. what is the quickest search
 3. what is the worse case of hash table
+4. mouse maze, similar to LeetCode-490 The Maze (medium): https://leetcode.com/articles/the-maze/
 
 Some other interesting problems
 1. (Meta string) Checking if two strings contain the same characters regardless of order
@@ -19,9 +20,8 @@ Some other interesting problems
 - easy(12): https://leetcode.com/list/1emvu11
 - medium(12): https://leetcode.com/list/1emw747
 - hard(10): https://leetcode.com/list/1emdws5
-- 490 The Maze (medium): https://leetcode.com/articles/the-maze/
 
-`12` in `easy(12)` means that the first 12 problems in the list are in the first 200 leetcode problems which are used frequently. 
+`12` in `easy(12)` means that the first 12 problems in the list are in the first 200 leetcode problems which are used frequently.
 
 ## Node.js
 

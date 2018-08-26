@@ -6,6 +6,7 @@ class TreeNode:
         self.right = None
 
 class Solution:
+    # DFS
     def isSameTree(self, p, q):
         """
         :type p: TreeNode

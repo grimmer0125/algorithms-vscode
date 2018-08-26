@@ -1,4 +1,4 @@
-# ~ 347.
+# ~ 347. copy its code
 import heapq
 
 class Solution:
@@ -13,7 +13,7 @@ class Solution:
                 numDict[num] += 1
             else:
                 numDict[num] = 1
-        # or just iterate the key, value. linear time            
+        # or just iterate the key, value. linear time
         max_list = heapq.nlargest(1, numDict, key=lambda x: numDict[x]) # ~Counter.most_common(k)
         return max_list[0]
 
