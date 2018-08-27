@@ -23,6 +23,18 @@ Some other interesting problems
 
 `12` in `easy(12)` means that the first 12 problems in the list are in the first 200 leetcode problems which are used frequently.
 
+## Tips on LeetCode
+
+Do not uncomment some pre-definition classes which are defined somewhere already, the system comments are just exploration e.g.
+
+```
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+```
+
 ## interesting skills
 
 two pointer method (caterpillar method), e.g:
