@@ -1,4 +1,4 @@
-# A linked list can be reversed either iteratively or recursively. 
+# A linked list can be reversed either iteratively or recursively.
 # Could you implement both?
 
 # Definition for singly-linked list.
@@ -13,14 +13,14 @@ class Solution:
         :type head: ListNode
         :rtype: ListNode
         """
-        preNode = None         
-        while head != None:            
+        preNode = None
+        while head != None:
             next_node = head.next
             head.next = preNode
-            preNode = head 
+            preNode = head
             head = next_node
-        return preNode   
-     
+        return preNode
+
 def test_func():
     test = Solution()
     node1 = ListNode(1)
@@ -39,5 +39,3 @@ def test_func():
     assert node3.next == node2
     assert node2.next == node1
     assert node1.next == None
-
-test_func()

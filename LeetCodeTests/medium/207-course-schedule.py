@@ -24,6 +24,3 @@ def test_func():
     trie = Solution()
     assert trie.canFinish(2, [[1,0]]) == True
     assert trie.canFinish(2, [[1,0],[0,1]]) == True
-
-test_func()
-print('ok')

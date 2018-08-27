@@ -52,5 +52,3 @@ def test_func():
     node3.next = node4
     node4.next = node1
     assert test.hasCycle(node1) == True
-
-test_func()
