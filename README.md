@@ -60,7 +60,7 @@ Install:
 - pip install -U pytest
 
 Test:
-- pytest -s (find all `leet*` files in the current folder)
+- pytest -s (find all `*-*.py test_*.py` files in the current folder)
 - pytest -s single_file (only that file)
 
 ## Go
