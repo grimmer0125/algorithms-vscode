@@ -1,4 +1,8 @@
-// A is consistent of non-decreasing integral.
+/**
+ *  input a nail array (A) and use a hammer to drill k times to
+ *  return the maximal number of same height of nails.
+ *  A is consistent of non-decreasing integral. k >=0
+ */
 function solution(A, K) {
   const n = A.length;
   let best = 1; // FIXME: maybe 0 if A is empty

@@ -23,6 +23,13 @@ Some other interesting problems
 
 `12` in `easy(12)` means that the first 12 problems in the list are in the first 200 leetcode problems which are used frequently.
 
+## interesting skills
+
+two pointer method (caterpillar method), e.g:
+- https://app.codility.com/programmers/lessons/15-caterpillar_method/
+- https://leetcode.com/articles/two-pointer-technique/
+- https://www.geeksforgeeks.org/find-number-of-triangles-possible/
+
 ## Node.js
 
 Install:

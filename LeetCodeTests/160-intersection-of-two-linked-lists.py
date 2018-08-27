@@ -1,6 +1,7 @@
 # https://leetcode.com/problems/intersection-of-two-linked-lists/solution/
 # Your code should preferably run in O(n) time and use only O(1) memory.
 # Definition for singly-linked list.
+# two pointer (caterpillar_method)
 class ListNode:
     def __init__(self, x):
         self.val = x

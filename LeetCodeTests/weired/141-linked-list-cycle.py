@@ -7,7 +7,7 @@ class ListNode:
 # somehow this solution # input: [3,2,0,-4] tail connects to node index 1
 # test is failed on LeetCode: Time Limit Exceeded
 # Solution2 is no problem. Also this problems has no Python3 supprot on LeetCode
-# Also, Approach 2 of https://leetcode.com/problems/linked-list-cycle/solution/ is weired, why not use the below solution
+# Also, Approach 2 (two pointers) of https://leetcode.com/problems/linked-list-cycle/solution/ is weired, why not use the below solution
 class Solution:
     def hasCycle(self, head):
         """

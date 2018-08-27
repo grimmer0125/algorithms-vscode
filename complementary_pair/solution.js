@@ -18,6 +18,7 @@ function solution(K, A) {
 
     // FIXME: use two binary search so time O(n * logn),
     // so total solution will be O(n * logn) on Mozilla
+    // Python has built-in binary search, https://docs.python.org/2/library/bisect.html
     const firstMatch = A.indexOf(targetValue);
     const finalMatch = A.lastIndexOf(targetValue);
 
