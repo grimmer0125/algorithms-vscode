@@ -14,18 +14,18 @@ class Solution:
     # Sum(root-A) = complement = Sum(root~G)-Target <- fixed number
     def helper(self, node, target, pre_sum, cache):
         if node:
-            _sum = pre_sum + node.val
+            sum_ = pre_sum + node.val
 
-            complement = _sum - target
+            complement = sum_ - target
             if complement in cache:
                 self.result += cache[complement]
 
             # if not exist, set the value as 0
-            cache.setdefault(_sum, 0)
-            cache[_sum] += 1
-            self.helper(node.left, target, _sum, cache)
-            self.helper(node.right, target, _sum, cache)
-            cache[_sum] -= 1
+            cache.setdefault(sum_, 0)
+            cache[sum_] += 1
+            self.helper(node.left, target, sum_, cache)
+            self.helper(node.right, target, sum_, cache)
+            cache[sum_] -= 1
         return
     def pathSum(self, root, target):
         """
@@ -48,4 +48,3 @@ def test_func():
     node.left.left.left = TreeNode(3)
     node.left.left.right = TreeNode(-2)
     assert test.pathSum(node, 8) == 3
-test_func()
