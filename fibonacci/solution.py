@@ -17,6 +17,7 @@ def fibonacci(n):
     return last
 
 # without memorization, O(~2^n)
+# https://en.wikipedia.org/wiki/Dynamic_programming#Fibonacci_sequence
 def fibonacci_recursive_memorization(n):
     values = [0]*(n+1)
     visited_list = [0]*(n+1)

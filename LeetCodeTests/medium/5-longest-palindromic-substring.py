@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/longest-palindromic-substring/solution/
 # has a faster way
+# dynamic-programming
 class Solution:
     def longestPalindrome(self, s):
         """

@@ -1,6 +1,7 @@
 # https://leetcode.com/problems/house-robber/discuss/55681/Java-O(n)-solution-space-O(1)
 # https://leetcode.com/problems/house-robber/discuss/55696/Python-solution-3-lines.
 # recursive way: # f(k) = max( f(k-2) + nums[k], f(k-1) )
+# dynamic-programming
 class Solution:
     def rob(self, nums):
         """
