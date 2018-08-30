@@ -16,7 +16,8 @@ function solution(K, A) {
   for (let i = 0; i < count; i++) {
     const targetValue = K - A[i];
 
-    // FIXME: use two binary search so time O(n * logn),
+    // FIXME: use two binary search (both sides) so time O(n * logn),
+    // ref: 38-find-first-and-last-position-of-element-in-sorted-array
     // so total solution will be O(n * logn) on Mozilla
     // Python has built-in binary search, https://docs.python.org/2/library/bisect.html
     const firstMatch = A.indexOf(targetValue);
