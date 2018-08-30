@@ -16,6 +16,25 @@ def fibonacci(n):
             second_last = last_tmp
     return last
 
-if __name__ == '__main__':
-    if len(sys.argv) >= 2:
-        print(fibonacci(int(sys.argv[1])))
+# without memorization, O(~2^n)
+def fibonacci_recursive_memorization(n):
+    values = [0]*(n+1)
+    visited_list = [0]*(n+1)
+    def fib_recursive(n):
+        if visited_list[n]:
+            return values[n]
+        visited_list[n] = True
+        if n <= 1:
+            values[n] = n
+        else:
+            values[n] = fib_recursive(n-1) + fib_recursive(n-2)
+        return values[n]
+    return fib_recursive(n)
+
+def test_solution():
+    assert fibonacci(10) == 55
+    assert fibonacci_recursive_memorization(10) == 55
+
+# if __name__ == '__main__':
+#     if len(sys.argv) >= 2:
+#         print(fibonacci(int(sys.argv[1])))
