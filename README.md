@@ -42,6 +42,8 @@ two pointer method (caterpillar method), e.g:
 - https://leetcode.com/articles/two-pointer-technique/
 - https://www.geeksforgeeks.org/find-number-of-triangles-possible/
 
+Sometimes it is used in linked-list problems.
+
 ## Node.js
 
 Install:
