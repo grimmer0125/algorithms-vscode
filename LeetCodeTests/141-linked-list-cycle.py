@@ -4,27 +4,10 @@ class ListNode:
         self.val = x
         self.next = None
 
-# somehow this solution # input: [3,2,0,-4] tail connects to node index 1
-# test is failed on LeetCode: Time Limit Exceeded
-# Solution2 is no problem. Also this problems has no Python3 supprot on LeetCode
-# Also, Approach 2 (two pointers) of https://leetcode.com/problems/linked-list-cycle/solution/ is weired, why not use the below solution
+# This problems has no Python3 supprot on LeetCode
+# There is also a two pointers solution,
+# https://leetcode.com/problems/linked-list-cycle/solution/
 class Solution:
-    def hasCycle(self, head):
-        """
-        :type head: ListNode
-        :rtype: bool
-        """
-        if head == None:
-            return False
-        first_id = id(head)
-        head = head.next
-        while head:
-            if id(head) == first_id:
-                return True
-            head = head.next
-        return False
-
-class Solution2:
     def hasCycle(self, head):
         """
         :type head: ListNode
