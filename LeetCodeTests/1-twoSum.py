@@ -1,4 +1,6 @@
 class Solution:
+    # interesting c solution, define simple hash by self 
+    # https://leetcode.com/problems/two-sum/discuss/19/Accepted-C-solution-of-HashMap-in-4ms
     def twoSum(self, nums, target):
         """
         :type nums: List[int]
@@ -20,4 +22,4 @@ class Solution:
 
 def test_func():
     test = Solution()
-    assert test.twoSum([3,2,4], 6) == [1,2]  
+    assert test.twoSum([3,2,4], 6) == [1,2]
