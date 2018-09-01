@@ -19,7 +19,7 @@ Some other interesting problems
 
 - easy(12): https://leetcode.com/list/1emvu11
 - medium(12): https://leetcode.com/list/1emw747
-- hard(10): https://leetcode.com/list/1emdws5
+- hard(12): https://leetcode.com/list/1emdws5
 
 `12` in `easy(12)` means that the first 12 problems in the list are in the first 200 leetcode problems which are used frequently.
 
