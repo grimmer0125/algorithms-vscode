@@ -1,8 +1,4 @@
 import bisect
-# >>> bisect.bisect_left(a, 5)
-# 3
-# >>> bisect.bisect_right(a, 5) -1
-# 5
 class Solution:
     def num_complementary_pairs(self, k, a):
         complementaryTotal = 0
