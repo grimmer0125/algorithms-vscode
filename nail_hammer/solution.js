@@ -29,8 +29,8 @@ function solution(A, K) {
   return best;
 }
 
-const a = [1, 1, 3, 3, 3, 4, 5, 5, 5, 5];
-
-const answer = solution(a, 2);
-console.log(answer);
-console.log('end');
+// const a = [1, 1, 3, 3, 3, 4, 5, 5, 5, 5];
+//
+// const answer = solution(a, 2);
+// console.log(answer);
+// console.log('end');
