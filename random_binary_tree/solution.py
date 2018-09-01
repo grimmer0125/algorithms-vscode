@@ -7,7 +7,7 @@ class Node():
     def __init__(self):
         self.left = None
         self.right = None
-        self. value = None
+        self.value = None
 
 def random_binary_tree(number_nodes=7):
     """
@@ -52,7 +52,8 @@ def random_binary_tree(number_nodes=7):
         non_degree2_list.append(node)
     return root_node
 
-def loop_depth_print(node):
+# BFS (Breadth-first_search)
+def breadth_traversal_print(node):
     print("loop_depth_print")
     if node == None:
         print("invalid root node")
@@ -60,7 +61,7 @@ def loop_depth_print(node):
     last_level_list = []
     current_level_list = []
     last_level_list.append(node)
-    while True>0:
+    while True:
         for node in last_level_list:
             if node.left != None:
                 print("({})".format(node.left.value), end='')
@@ -77,4 +78,4 @@ def loop_depth_print(node):
 if __name__ == '__main__':
     if len(sys.argv) >= 2:
         node = random_binary_tree(int(sys.argv[1]))
-        loop_depth_print(node)
+        breadth_traversal_print(node)
