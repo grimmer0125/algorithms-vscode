@@ -54,7 +54,7 @@ Test:
 - yarn test specific_folder (only that folder)
 
 Todo:
-1. (breakpoint) debugging when using jest
+1. (breakpoint) debugging while using Jest
 
 ## Python
 
@@ -73,3 +73,14 @@ Run:
 Test:
 1. in each folder, execute `go test`
 2. in root folder, `go test ./...` to test all sub folders
+
+## How to debug Python, Go and Node.js with breakpoints
+
+Select the file in VS code, then select the cooresponding config in Debug panel to launch.
+
+## Build and Debug C++ (experimental)
+
+Take `LeetCodeTests/1-twoSum.cpp` as an example.
+
+- in terminal, type `g++ -g 1-twoSum.cpp`, then `a.out` (default name) will be generated.
+- select this file in VS code, then choose `C++ config` in Debug panel to launch. The current `.vscode/launch.json` is for macOS, please read https://code.visualstudio.com/docs/languages/cpp to modify it if yours OS is not macOS. 
