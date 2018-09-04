@@ -82,5 +82,7 @@ Select the file in VS code, then select the cooresponding config in Debug panel 
 
 Take `LeetCodeTests/1-twoSum.cpp` as an example.
 
-- in terminal, type `g++ -g 1-twoSum.cpp`, then `a.out` (default name) will be generated.
-- select this file in VS code, then choose `C++ config` in Debug panel to launch. The current `.vscode/launch.json` is for macOS, please read https://code.visualstudio.com/docs/languages/cpp to modify it if yours OS is not macOS. 
+- ~~in terminal, type `g++ -g 1-twoSum.cpp`, then `a.out` (default name) will be generated.~~
+- select this file in VS code, then choose `C++: currentFile_build-debug` in Debug panel to build+launch.
+
+`.vscode/launch.json or tasks.json` are for macOS, please read https://code.visualstudio.com/docs/languages/cpp to modify the cpp part of them if yours OS is not macOS. 

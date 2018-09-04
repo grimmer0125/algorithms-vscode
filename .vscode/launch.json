@@ -17,7 +17,7 @@
             "program": "${file}"
         },    
         {
-            "name": "Launch Go",
+            "name": "Go: Current Folder",
             "type": "go",
             "request": "launch",
             "mode": "auto",
@@ -30,10 +30,24 @@
             "showLog": false
         },
         {
-            "name": "C++ debug",
+            "name": "C++: currentFile_build-debug",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "build_current_cpp"
+
+        },
+        {
+            "name": "C++ currentFile_debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
