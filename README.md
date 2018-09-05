@@ -85,4 +85,29 @@ Take `LeetCodeTests/1-twoSum.cpp` as an example.
 - ~~in terminal, type `g++ -g 1-twoSum.cpp`, then `a.out` (default name) will be generated.~~
 - select this file in VS code, then choose `C++: currentFile_build-debug` in Debug panel to build+launch.
 
-`.vscode/launch.json or tasks.json` are for macOS, please read https://code.visualstudio.com/docs/languages/cpp to modify the cpp part of them if yours OS is not macOS. 
+`.vscode/launch.json or tasks.json` are for macOS, please read https://code.visualstudio.com/docs/languages/cpp to modify the cpp part of them if yours OS is not macOS.
+
+**issue**
+
+- need a framework to test all
+
+## `C#`
+
+**Installation**
+
+Follow https://docs.microsoft.com/zh-tw/dotnet/core/tutorials/with-visual-studio-code to install .NET Core SDK and VSCode extension.
+
+**Dev**
+
+Make your classes like `LeetCodeTests/Solution1.cs`, rules:
+1. class name is the same as file name.
+2. no duplicate file names.
+3. write your test case in `test_solution` function.
+
+**Debug**
+
+- select this file in VS code, then choose `.NET Core: Current File` in Debug panel to build+launch.
+
+**Todo**
+
+- add a runner to test all

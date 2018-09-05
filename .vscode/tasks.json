@@ -4,6 +4,16 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/CSharp.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "build_current_cpp",
             "type": "shell",
             "command": "clang++",
@@ -16,6 +26,6 @@
                 "kind": "build",
                 "isDefault": true
             }
-        }      
+        } 
     ]
 }
