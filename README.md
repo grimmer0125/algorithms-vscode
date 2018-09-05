@@ -10,6 +10,7 @@ Some questions in my interviews
 2. what is the quickest search
 3. what is the worse case of hash table
 4. mouse maze, similar to LeetCode-490 The Maze (medium): https://leetcode.com/articles/the-maze/
+5. TicTacToe (LeetCode, my AI side project and React official site)
 
 Some other interesting problems
 1. (Meta string) Checking if two strings contain the same characters regardless of order
@@ -97,17 +98,20 @@ Take `LeetCodeTests/1-twoSum.cpp` as an example.
 
 Follow https://docs.microsoft.com/zh-tw/dotnet/core/tutorials/with-visual-studio-code to install .NET Core SDK and VSCode extension.
 
+Then `dotnet restore` to install project dependencies.
+
 **Dev**
 
 Make your classes like `LeetCodeTests/Solution1.cs`, rules:
 1. class name is the same as file name.
 2. no duplicate file names.
 3. write your test case in `test_solution` function.
+4. (optional) add `[TestClass]` and `[TestMethod]` for run_all_tests runner.
 
 **Debug**
 
 - select this file in VS code, then choose `.NET Core: Current File` in Debug panel to build+launch.
 
-**Todo**
+**Run all tests at once**
 
-- add a runner to test all
+- execute `dotnet test` to run all tests function which have ``[TestMethod]``

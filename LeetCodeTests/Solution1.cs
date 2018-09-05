@@ -5,7 +5,8 @@ using System.Linq;
 
 namespace CSharp
 {
-    class Solution1
+    [TestClass]
+    public class Solution1
     {
         public int[] TwoSum(int[] nums, int target) {
             Dictionary<int, int> numDict = new Dictionary<int, int>();
@@ -25,6 +26,8 @@ namespace CSharp
             }
             return new int[]{};
         }
+
+        [TestMethod]
         public void test_solution(){
             Console.WriteLine("test_solution1");
             int[] nums = {2,7,11,15};
