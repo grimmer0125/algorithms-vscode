@@ -69,11 +69,11 @@ Test:
 ## Go
 
 Run:
-1. in each folder, execute `go build` and executed the generated binary file
+1. in each folder, execute `go build`/`go build xxx.go` and executed the generated binary file
 
 Test:
-1. in each folder, execute `go test`
-2. in root folder, `go test ./...` to test all sub folders
+1. execute `go test xxx_test.go` or `go *.go` to test 1 file/folder
+2. in root folder, `go test ./...` to test all sub folders. **Issue:** it will fail if any folder has c/cpp files. Use `CGO_ENABLED=0 go test ./...` if this happen.
 
 ## How to debug Python, Go and Node.js with breakpoints
 
@@ -115,3 +115,5 @@ Make your classes like `LeetCodeTests/Solution1.cs`, rules:
 **Run all tests at once**
 
 - execute `dotnet test` to run all tests function which have ``[TestMethod]``
+
+**The current C# namespace defined in the project is not aligned with the folder structure**
